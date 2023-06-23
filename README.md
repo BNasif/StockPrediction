@@ -14,6 +14,8 @@ The models are evaluated based on their Root Mean Squared Error (RMSE) on the te
 
 ## Visualization
 The project also includes a visualization component, where the actual and predicted stock prices are plotted against time, providing a clear visual representation of the model's performance.
+![Image description](images/lstm/image1.png)
+
 
 ## Libraries Used
 The project code is written in Python, utilizing libraries such as yfinance for data acquisition, pandas and numpy for data manipulation, sklearn for data preprocessing, and matplotlib for data visualization.
