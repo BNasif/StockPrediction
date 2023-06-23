@@ -10,7 +10,7 @@ The data, which includes Open, High, Low, Close, and Adjusted Close prices, is n
 The LSTM model is constructed with two LSTM layers (300 and 150 units respectively), followed by two Dense layers (80 and 25 units respectively), and a final Dense layer with linear activation for output. The GRU-RNN model is similarly structured, but with GRU layers instead of LSTM. Both models are trained for 20 epochs with a batch size of 32, using Adam as the optimizer and Mean Squared Error as the loss function.
 
 ## Model Evaluation
-The models are evaluated based on their Root Mean Squared Error (RMSE) on the test data. The LSTM model achieved an RMSE of 6.611062022357579, while the GRU-RNN model achieved a lower RMSE of 5.262483405205591, indicating higher accuracy in predicting stock prices.
+The models are evaluated based on their Root Mean Squared Error (RMSE) on the test data. The LSTM model achieved an RMSE of 5.9, while the GRU-RNN model achieved a lower RMSE of 4.5, indicating higher accuracy in predicting stock prices.
 
 ## Visualization
 The project also includes a visualization component, where the actual and predicted stock prices are plotted against time, providing a clear visual representation of the model's performance.
