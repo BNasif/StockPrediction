@@ -14,10 +14,22 @@ The models are evaluated based on their Root Mean Squared Error (RMSE) on the te
 
 ## Visualization
 The project also includes a visualization component, where the actual and predicted stock prices are plotted against time, providing a clear visual representation of the model's performance.
-### Microsoft Price prediction using RNN
+### Microsoft Price prediction using LSTM
 ![Image description](images/lstm/image1.png)
+### Microsoft Price prediction using RNN
 ![Microsoft Price prediction using RNN](images/rnn/image4.png)
-
+### Google Price prediction using LSTM
+![Image description](images/lstm/image5.png)
+### Google Price prediction using RNN
+![Image description](images/rnn/image2.png)
+### Amazon Price prediction using LSTM
+![Image description](images/lstm/image8.png)
+### Amazon Price prediction using RNN
+![Image description](images/rnn/image10.png)
+### Apple Price prediction using LSTM
+![Image description](images/lstm/image9.png)
+### Apple Price prediction using RNN
+![Image description](images/lstm/image6.png)
 
 ## Libraries Used
 The project code is written in Python, utilizing libraries such as yfinance for data acquisition, pandas and numpy for data manipulation, sklearn for data preprocessing, and matplotlib for data visualization.
