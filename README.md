@@ -29,7 +29,7 @@ The project also includes a visualization component, where the actual and predic
 ### Apple Price prediction using LSTM
 ![Image description](images/lstm/image9.png)
 ### Apple Price prediction using RNN
-![Image description](images/lstm/image6.png)
+![Image description](images/rnn/image6.png)
 
 ## Libraries Used
 The project code is written in Python, utilizing libraries such as yfinance for data acquisition, pandas and numpy for data manipulation, sklearn for data preprocessing, and matplotlib for data visualization.
